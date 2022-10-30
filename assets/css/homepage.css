@@ -56,6 +56,10 @@
     background-image: url("../img/manufacturers_banner_bg.jpg");
 }
 
+.uses {
+    background-image: url("../img/uses_banner_bg.jpeg");
+}
+
 .enter-btn {
     background-color: rgb(161, 0, 0);
     color: white;
@@ -73,5 +77,13 @@
 
 .welcome-section {
     background-color: rgb(221, 221, 221);
-    padding: 10px;
+    padding: 20px 15px 0px 15px;
+}
+
+.welcome-section > p {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0px;
 }
