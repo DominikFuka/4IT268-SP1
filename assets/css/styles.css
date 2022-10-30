@@ -8,7 +8,7 @@ body {
     margin: 0px;
 }
 
-header {
+.header-content-wrapper {
     display: flex;
     flex-direction: column;
     background-color: rgb(221, 221, 221);
@@ -21,13 +21,12 @@ footer {
     font-size: small;
     text-align: center;
     padding: 20px 0px;
-    cursor: crosshair;
     border-radius: 0px 0px 10px 10px;
 }
 
 .suits-img {
     height: 40px;
-    margin: 0px auto;
+    margin: 15px auto 0px auto;
 }
 
 .welcome > p {
@@ -40,7 +39,7 @@ header h1 {
     text-align: center;
     text-transform: uppercase;
     padding: 10px;
-    margin: 0px 0px 10px 0px;
+    margin: 0px;
     border-radius: 10px 10px 0px 0px;
 }
 
