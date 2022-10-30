@@ -52,6 +52,10 @@
     background-image: url("../img/designers_banner_bg-min.jpg");
 }
 
+.manufacturers {
+    background-image: url("../img/manufacturers_banner_bg.jpg");
+}
+
 .enter-btn {
     background-color: rgb(161, 0, 0);
     color: white;
