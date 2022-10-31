@@ -1,0 +1,89 @@
+.banners-wrapper {
+    background-color: rgb(221, 221, 221);
+    margin: 0px;
+    padding: 0px 10px;
+    display: flex;
+}
+
+.banner {
+    padding: 20px;
+    background-color: gray;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 20px 5px;
+    border-radius: 10px;
+    flex-basis: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.collecting:before {
+    /* TODO - blur bg on hover */
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+}
+
+.banner h2 {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px;
+    margin: 0px;
+    border-radius: 10px 10px 0px 0px;
+    border-bottom: 3px white solid;
+}
+
+.banner p {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px;
+    margin: 0px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.collecting {
+    background-image: url("../img/collecting_banner_bg.jpg");
+}
+
+.designers {
+    background-image: url("../img/designers_banner_bg-min.jpg");
+}
+
+.manufacturers {
+    background-image: url("../img/manufacturers_banner_bg.jpg");
+}
+
+.uses {
+    background-image: url("../img/uses_banner_bg.jpeg");
+}
+
+.enter-btn {
+    background-color: rgb(161, 0, 0);
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    cursor: crosshair;
+    margin: 20px auto 0px auto;
+}
+
+.enter-btn:hover {
+    background-color: rgba(161, 0, 0, 0.6);
+}
+
+.welcome-section {
+    background-color: rgb(221, 221, 221);
+    padding: 20px 15px 0px 15px;
+}
+
+.welcome-section > p {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0px;
+}
