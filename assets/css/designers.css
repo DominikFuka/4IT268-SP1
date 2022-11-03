@@ -1,0 +1,49 @@
+.designers-content-wrapper {
+    background-color: rgb(221, 221, 221);
+    padding: 10px;
+}
+
+.designer-container {
+    background-color: gray;
+    color: white;
+    display: flex;
+    padding: 15px;
+    margin: 0px 10px 10px 10px;
+    border-radius: 10px;
+}
+
+.designer-container h2 {
+    color: white;
+    margin: 0px;
+    padding: 5px;
+    border-bottom: 3px darkgray solid;
+}
+
+.description {
+    margin-left: 15px;
+}
+
+.description h3 {
+    padding-left: 5px;
+}
+
+.description p {
+    padding-left: 5px;
+}
+
+.card-designs {
+    display: flex;
+    width: 100%;
+    padding: 5px;
+}
+
+.card-designs > img {
+    max-width: 20%;
+}
+
+.designer-profile-img {
+    max-width: 25%;
+    height: 100%;
+    padding: 10px;
+    border-radius: 20px;
+}
