@@ -39,6 +39,7 @@
 
 .card-designs > img {
     max-width: 20%;
+    padding: 10px;
 }
 
 .designer-profile-img {
