@@ -10,6 +10,10 @@
     background-color: rgba(0, 0, 0, 0.6);
 }
 
+.black-semitransparent-bg {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
 .pad-10 {
     padding: 10px;
 }
@@ -24,13 +28,12 @@
 
 h2 {
     text-align: center;
-    margin-top: 0px;
     padding: 15px 0px;
-    margin-bottom: 0px;
+    margin: 0px;
 }
 
-.white-underline {
-    border-bottom: 3px white solid;
+.darkgray-underline {
+    border-bottom: 3px darkgray solid;
 }
 
 p {
