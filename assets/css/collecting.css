@@ -1,0 +1,110 @@
+* {
+    color: white;
+}
+
+.community-section h2 {
+    padding-top: 0px;
+}
+
+.black-transparent-bg {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.black-semitransparent-bg {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.pad-10 {
+    padding: 10px;
+}
+
+.pad-20 {
+    padding: 20px;
+}
+
+.round-corners {
+    border-radius: 10px;
+}
+
+h2 {
+    text-align: center;
+    padding: 15px 0px;
+    margin: 0px;
+}
+
+.darkgray-underline {
+    border-bottom: 3px darkgray solid;
+}
+
+p {
+    margin: 0px;
+    padding: 15px;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.portfolio52-section {
+    background-image: url("../img/portfolio52_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.intro {
+    background-image: url("../img/collection.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.collecting-content-wrapper {
+    background-color: rgb(221,221,221);
+}
+
+.community-section {
+    display: flex;
+    margin: 10px;
+}
+
+.community-section > article {
+    flex-basis: 50%;
+    margin: 10px;
+}
+
+.article-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn {
+    background-color: rgb(161, 0, 0);
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    cursor: crosshair;
+    margin: 20px auto 0px auto;
+}
+
+.btn:hover {
+    background-color: rgba(161, 0, 0, 0.6);
+}
+
+.logo-crop {
+    max-width: 100px;
+    max-height: 100px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.logo {
+    display: inline;
+    margin: 0px auto;
+    height: 100%;
+    width: auto;
+}
