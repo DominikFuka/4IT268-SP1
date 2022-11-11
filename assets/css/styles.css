@@ -87,3 +87,7 @@ nav ul > li {
 .btn-centered {
     margin: 20px auto 0px auto;
 }
+
+.darkgray-underline {
+    border-bottom: 3px darkgray solid;
+}
