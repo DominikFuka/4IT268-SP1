@@ -4,6 +4,7 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
     padding: 20px;
     margin: 0px;
 }
@@ -15,26 +16,12 @@ body {
     margin: 0px;
 }
 
-footer {
-    background-color: black;
-    color: white;
-    font-size: small;
-    text-align: center;
-    padding: 20px 0px;
-    border-radius: 0px 0px 10px 10px;
-}
-
 .suits-img {
     height: 40px;
     margin: 15px auto 0px auto;
 }
 
-.welcome > p {
-    margin: 0px;
-}
-
 header h1 {
-    color: white;
     background-color: rgb(0, 0, 0);
     text-align: center;
     text-transform: uppercase;
@@ -45,6 +32,7 @@ header h1 {
 
 nav {
     margin-top: 10px;
+    padding-bottom: 20px;
 }
 
 nav ul {
@@ -56,6 +44,14 @@ nav ul {
 
 nav ul > li {
     padding: 5px;
+}
+
+footer {
+    background-color: black;
+    font-size: small;
+    text-align: center;
+    padding: 20px 0px;
+    border-radius: 0px 0px 10px 10px;
 }
 
 .btn {
@@ -90,4 +86,17 @@ nav ul > li {
 
 .darkgray-underline {
     border-bottom: 3px darkgray solid;
+}
+
+p {
+    margin: 0px;
+    padding: 15px;
+}
+
+.round-corners {
+    border-radius: 10px;
+}
+
+.black-semitransparent-bg {
+    background-color: rgba(0, 0, 0, 0.7);
 }
