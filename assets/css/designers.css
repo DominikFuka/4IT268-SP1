@@ -4,33 +4,83 @@
 }
 
 .designer-container {
-    display: flex;
-    padding: 15px;
     margin-bottom: 15px;
+}
+
+.designer-container > h2 {
+    text-align: center;
+}
+
+.designer-container h3 {
+    margin: 0px;
+    padding: 0px 0px 0px 15px;
 }
 
 .designer-container:last-child {
     margin-bottom: 0px;
 }
 
-.card-designs {
+.designer-profile {
+    display: flex;
+    padding-bottom: 15px;
+}
+
+.designer-profile h3 {
+    padding: 15px 15px 0px 15px;
+    margin: 0px;
+}
+
+.designer-profile img {
+    max-width: 25%;
+    height: 100%;
+    padding: 15px 0px 0px 15px;
+    border-radius: 10px; /* TODO - zaoblen pouze jeden roh */
+}
+
+.designer-profile ul {
+    margin: 0px;
+}
+
+.designer-links {
+    display: flex;
+    list-style-type: none;
+    padding: 15px 0px 0px 0px;
+}
+
+.designer-links > li {
+    margin: 5px;
+    padding: 10px;
+}
+
+.design-gallery {
     display: flex;
     width: 100%;
     padding: 5px;
 }
 
-.card-designs > img {
+.design-gallery > img {
     max-width: 20%;
     padding: 10px;
 }
 
-.designer-profile-img {
-    max-width: 25%;
-    height: 100%;
-    padding: 10px;
-    border-radius: 20px;
+@media (max-width: 480px) {
+    .design-gallery > img {
+        max-width: 100%;
+    }
 }
 
-.description p {
-    padding: 0px;
+@media (max-width: 768px) {
+    .design-gallery > img {
+        max-width: 50%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .design-gallery {
+        flex-wrap: wrap;
+    }
+
+    .design-gallery > img {
+        max-width: 33%;
+    }
 }
