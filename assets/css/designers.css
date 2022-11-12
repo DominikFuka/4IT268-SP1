@@ -63,9 +63,13 @@
     padding: 10px;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 1024px) {
+    .design-gallery {
+        flex-wrap: wrap;
+    }
+
     .design-gallery > img {
-        max-width: 100%;
+        max-width: 33%;
     }
 }
 
@@ -75,12 +79,8 @@
     }
 }
 
-@media (max-width: 1024px) {
-    .design-gallery {
-        flex-wrap: wrap;
-    }
-
+@media (max-width: 480px) {
     .design-gallery > img {
-        max-width: 33%;
+        max-width: 100%;
     }
 }
