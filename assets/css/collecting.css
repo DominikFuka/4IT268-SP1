@@ -22,6 +22,7 @@ article {
     background-image: url("../img/collection.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    margin-bottom: 20px;
 }
 
 .collecting-content-wrapper {
@@ -31,18 +32,24 @@ article {
 
 .community-section {
     display: flex;
-    margin: 10px;
 }
 
 .community-section > article {
     flex-basis: 50%;
+    justify-content: space-between;
     margin: 10px;
+    padding-bottom: 15px;
 }
 
 .article-content {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.article-content h2 {
+    margin-bottom: 15px;
+    width: 100%;
 }
 
 .logo-crop {
