@@ -32,12 +32,13 @@ article {
 
 .community-section {
     display: flex;
+    gap: 10px 10px;
+    padding: 10px;
 }
 
 .community-section > article {
     flex-basis: 50%;
     justify-content: space-between;
-    margin: 10px;
     padding-bottom: 15px;
 }
 
@@ -76,5 +77,3 @@ article {
     height: 100%;
     width: auto;
 }
-
-/*tlacitkum mozna chybi margin: 20px auto 0px auto;*/
