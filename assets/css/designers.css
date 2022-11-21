@@ -23,8 +23,15 @@ section:first-of-type {
     }
 }
 
+.designer-navigation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+
 .btn-back-to-selection {
-    margin: 0% 50%;
+    margin: 0px auto;
 }
 
 .designer-container {
