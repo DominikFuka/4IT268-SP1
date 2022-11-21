@@ -1,8 +1,9 @@
 .banners-wrapper {
     background-color: rgb(221, 221, 221);
     margin: 0px;
-    padding: 0px 10px;
+    padding: 20px 15px;
     display: flex;
+    gap: 10px 10px;
 }
 
 .banner {
@@ -10,7 +11,6 @@
     background-color: gray;
     background-size: cover;
     background-repeat: no-repeat;
-    margin: 20px 5px;
     flex-basis: 25%;
     display: flex;
     flex-direction: column;
@@ -23,12 +23,6 @@
         justify-content: center;
     }
     
-    .banner {
-        flex-basis: 30%;
-    }
-}
-
-@media (max-width: 768px) {
     .banner {
         flex-basis: 48%;
     }

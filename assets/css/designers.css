@@ -30,11 +30,34 @@
     margin: 0px;
 }
 
-.designer-profile img {
-    max-width: 25%;
-    height: 100%;
+.designer-profile ul {
+    padding-top: 15px;
+}
+
+.designer-profile > div {
+    flex-basis: 66%;
+}
+
+.designer-profile > figure {
+    flex-basis: 33%;
+    margin: 0px;
     padding: 15px 0px 0px 15px;
-    border-radius: 10px; /* TODO - zaoblen pouze jeden roh */
+}
+
+.designer-profile figure > img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+    .designer-profile {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .designer-profile > figure {
+        padding: 15px;
+    }
 }
 
 .designer-profile ul {
@@ -54,33 +77,38 @@
 
 .design-gallery {
     display: flex;
-    width: 100%;
-    padding: 5px;
+    gap: 10px 10px;
+    padding: 20px;
 }
 
-.design-gallery > img {
-    max-width: 20%;
-    padding: 10px;
+.design-gallery > figure {
+    flex-basis: 20%;
+    margin: 0px;
+}
+
+.design-gallery > figure > img {
+    width: 100%;
 }
 
 @media (max-width: 1024px) {
     .design-gallery {
         flex-wrap: wrap;
+        justify-content: center;
     }
 
-    .design-gallery > img {
-        max-width: 33%;
+    .design-gallery > figure {
+        flex-basis: 32%;
     }
 }
 
 @media (max-width: 768px) {
-    .design-gallery > img {
-        max-width: 50%;
+    .design-gallery > figure {
+        flex-basis: 48%;
     }
 }
 
 @media (max-width: 480px) {
-    .design-gallery > img {
-        max-width: 100%;
+    .design-gallery > figure {
+        flex-basis: 100%;
     }
 }
