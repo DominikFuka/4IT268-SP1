@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -48,8 +49,18 @@ footer {
     background-color: black;
     font-size: small;
     text-align: center;
-    padding: 20px 0px;
+    padding: 20px;
     border-radius: 0px 0px 10px 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+footer > p {
+    padding: 15px;
+}
+
+footer > a {
+    margin: 0px auto 20px auto;
 }
 
 .btn {
