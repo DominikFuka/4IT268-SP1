@@ -1,6 +1,37 @@
-.designers-content-wrapper {
+section {
     background-color: rgb(221, 221, 221);
+}
+
+section:first-of-type {
+    padding: 20px;
+}
+
+.designers-content-wrapper {
     padding: 0px 15px 15px 15px;
+}
+
+.designer-selection {
+    display: flex;
+    justify-content: center;
+    gap: 10px 10px;
+    padding: 0px 15px 15px 15px;
+}
+
+@media (max-width: 1024px) {
+    .designer-selection {
+        flex-wrap: wrap;
+    }
+}
+
+.designer-navigation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+
+.btn-back-to-selection {
+    margin: 0px auto;
 }
 
 .designer-container {
@@ -62,17 +93,6 @@
 
 .designer-profile ul {
     margin: 0px;
-}
-
-.designer-links {
-    display: flex;
-    list-style-type: none;
-    padding: 15px 0px 0px 0px;
-}
-
-.designer-links > li {
-    margin: 5px;
-    padding: 10px;
 }
 
 .design-gallery {
