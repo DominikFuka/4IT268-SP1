@@ -67,6 +67,10 @@ section:first-of-type {
 
 .designer-profile > div {
     flex-basis: 66%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
 }
 
 .designer-profile > figure {
