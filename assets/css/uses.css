@@ -45,6 +45,7 @@ main article:last-child {
     height: 100%;
     left: 0px;
     top: 0px;
+    border: none;
 }
 
 @media (max-width: 1024px) {
