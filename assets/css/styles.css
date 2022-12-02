@@ -55,11 +55,11 @@ footer {
     flex-direction: column;
 }
 
-footer > p {
+footer>p {
     padding: 15px;
 }
 
-footer > a {
+footer>a {
     margin: 0px auto 20px auto;
 }
 

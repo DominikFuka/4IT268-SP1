@@ -26,7 +26,7 @@ article {
 }
 
 .collecting-content-wrapper {
-    background-color: rgb(221,221,221);
+    background-color: rgb(221, 221, 221);
     padding: 0px 15px 15px 15px;
 }
 
@@ -36,7 +36,7 @@ article {
     padding: 10px;
 }
 
-.community-section > article {
+.community-section>article {
     flex-basis: 50%;
     justify-content: space-between;
     padding-bottom: 15px;
@@ -47,7 +47,7 @@ article {
         flex-wrap: wrap;
     }
 
-    .community-section > article {
+    .community-section>article {
         flex-basis: 100%;
     }
 }

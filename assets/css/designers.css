@@ -38,7 +38,7 @@ section:first-of-type {
     margin-bottom: 15px;
 }
 
-.designer-container > h2 {
+.designer-container>h2 {
     text-align: center;
 }
 
@@ -65,7 +65,7 @@ section:first-of-type {
     padding-top: 15px;
 }
 
-.designer-profile > div {
+.designer-profile>div {
     flex-basis: 66%;
     display: flex;
     flex-direction: column;
@@ -73,13 +73,13 @@ section:first-of-type {
     padding: 20px;
 }
 
-.designer-profile > figure {
+.designer-profile>figure {
     flex-basis: 33%;
     margin: 0px;
     padding: 15px 0px 0px 15px;
 }
 
-.designer-profile figure > img {
+.designer-profile figure>img {
     width: 100%;
     border-radius: 10px;
 }
@@ -90,7 +90,7 @@ section:first-of-type {
         align-items: center;
     }
 
-    .designer-profile > figure {
+    .designer-profile>figure {
         padding: 15px;
     }
 }
@@ -105,12 +105,12 @@ section:first-of-type {
     padding: 20px;
 }
 
-.design-gallery > figure {
+.design-gallery>figure {
     flex-basis: 20%;
     margin: 0px;
 }
 
-.design-gallery > figure > img {
+.design-gallery>figure>img {
     width: 100%;
 }
 
@@ -120,19 +120,19 @@ section:first-of-type {
         justify-content: center;
     }
 
-    .design-gallery > figure {
+    .design-gallery>figure {
         flex-basis: 32%;
     }
 }
 
 @media (max-width: 768px) {
-    .design-gallery > figure {
+    .design-gallery>figure {
         flex-basis: 48%;
     }
 }
 
 @media (max-width: 480px) {
-    .design-gallery > figure {
+    .design-gallery>figure {
         flex-basis: 100%;
     }
 }

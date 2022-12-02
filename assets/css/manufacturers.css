@@ -8,7 +8,7 @@
     margin-bottom: 25px;
 }
 
-.manufacturers-section > article {
+.manufacturers-section>article {
     margin-bottom: 10px;
     display: flex;
     flex-direction: column;
@@ -19,7 +19,7 @@
     margin-bottom: 0px;
 }
 
-article > h2 {
+article>h2 {
     width: 100%;
 }
 
@@ -31,13 +31,13 @@ article {
     display: flex;
 }
 
-.article-content > figure {
+.article-content>figure {
     flex-basis: 33%;
     margin: 0px;
     padding: 15px;
 }
 
-.article-content > .paragraphs {
+.article-content>.paragraphs {
     flex-basis: 66%;
     display: flex;
     flex-direction: column;
@@ -49,16 +49,16 @@ article {
         flex-direction: column-reverse;
     }
 
-    .article-content > figure {
+    .article-content>figure {
         padding: 15px 20px;
     }
 }
 
-figure > img {
+figure>img {
     width: 100%;
     border-radius: 10px;
 }
 
-article > .btn-centered {
+article>.btn-centered {
     margin-top: 0px;
 }
